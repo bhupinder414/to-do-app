@@ -1,0 +1,22 @@
+:host {
+    display: block;
+    margin-top: 1rem;
+  }
+  
+  .info-text {
+    text-align: center;
+  }
+
+  button{
+    margin-right: 40px;
+  }
+
+ mat-expansion-panel{
+    width: 33%;
+    margin-left: 500px;
+    margin-bottom: 10px;
+  }
+
+  mat-panel-title{
+    font-size: 30px;
+  }

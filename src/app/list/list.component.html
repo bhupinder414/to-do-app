@@ -1,0 +1,9 @@
+<mat-accordion multi="true" *ngIf="ListPosts.length > 0">
+    <mat-expansion-panel *ngFor="let l of ListPosts,index as i">
+      <mat-expansion-panel-header>
+          <mat-panel-title>{{l.Title}} </mat-panel-title>
+           <button color="warn" mat-raised-button (click)="ListPosts.splice(i,1)">DELETE</button> 
+    </mat-expansion-panel-header>
+    <p>{{l.Content}}</p>  
+  </mat-expansion-panel>
+</mat-accordion>

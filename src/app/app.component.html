@@ -1,0 +1,5 @@
+<body>
+<h2 style="text-align: center;color: rgb(152, 161, 158);margin: 30px;">TO-DO APP</h2>
+<app-layout (titleCreated)="onPostAdded($event)"></app-layout><br>
+<app-list [ListPosts]="storedTitles"></app-list>
+</body>

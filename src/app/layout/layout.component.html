@@ -1,0 +1,11 @@
+<mat-card>
+<mat-form-field floatLabel="auto" appearance="fill" color="accent">
+  <mat-label>Enter Title Here ...</mat-label>
+  <input matInput type="text" [(ngModel)]="title">
+</mat-form-field>
+<mat-form-field floatLabel="auto" appearance="fill" color="accent">
+  <mat-label>Enter Content Here ...</mat-label>
+  <input matInput type="text" [(ngModel)]="content">
+</mat-form-field>
+<button mat-fab (click)="onAddTitle()">ADD</button>
+</mat-card>
